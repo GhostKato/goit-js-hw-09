@@ -31,4 +31,14 @@ img {
   background: url(<path-to-image>) lightgray -0.011px -77px / 100.006% 150%
     no-repeat;
   overflow: hidden;
+  transition: 0.4s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(105%);
+}
+
+link {
+  text-align: center;
+  color: aqua;
 }
